@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f47b20">
+  <title>Fanta Orange | Scroll in Motion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="experience">
+    <section class="sequence" aria-label="Scroll-driven Fanta animation">
+      <canvas id="scene" aria-label="Animated Fanta orange can surrounded by orange splash"></canvas>
+      <div class="wash"></div>
+
+      <header class="topbar">
+        <a class="wordmark" href="#top" aria-label="Fanta home">Fanta<span>.</span></a>
+        <div class="topbar-meta"><span class="dot"></span>Chill ayipo guruuuuu!</div>
+        <div class="hero-copy" id="top">
+        
+      </div>
+      </header>
+
+      
+
+      <div class="scroll-cue" aria-hidden="true">
+        <span class="scroll-line"></span>
+        <span>Scroll to pour</span>
+      </div>
+
+      <div class="frame-readout" aria-live="polite"><span id="frameNumber">01</span><span class="slash">/</span><span>300</span></div>
+      <div class="progress-track"><span id="progress"></span></div>
+    </section>
+
+    <div id="imported-content" aria-live="polite"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
